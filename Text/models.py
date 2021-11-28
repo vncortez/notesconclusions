@@ -29,6 +29,8 @@ class NodeText(models.Model):
     titulos = models.ManyToManyField(to=Title)
     tipo_texto = models.ForeignKey(to=TypeOfText, on_delete=models.CASCADE, related_name='textos')
     usuario = models.ForeignKey(to=get_user_model(), on_delete=models.CASCADE)
+    sub_titulo = models.CharField(max_length=100)
+    publicavel = models.BooleanField(default=False)
     data_criacao = models.DateTimeField(auto_now=True)
     
     @property

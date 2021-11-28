@@ -8,7 +8,7 @@ from Text.models import NodeText, TypeOfText
 class TextViewSerializer(serializers.ModelSerializer):
     class Meta:
         model = NodeText
-        fields = ['text', 'data_criacao']
+        fields = ['sub_tutulo','text', 'data_criacao']
     
     def to_representation(self, instance : NodeText):
         representation = super().to_representation(instance)
