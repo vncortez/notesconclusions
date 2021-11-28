@@ -13,9 +13,16 @@ class Title(models.Model):
     text = models.CharField(max_length=30)
     order = models.IntegerField()
     type_of = models.CharField(max_length=3, choices=TypeOf.choices)
+    
+    def __str__(self):
+        return f'{self.type_of} {self.text}'
+    
 
 class TypeOfText(models.Model):
     text = models.CharField(max_length=30)
+    
+    def __str__(self):
+        return self.text
 
 class NodeText(models.Model):
     text = models.TextField(max_length=1500)
