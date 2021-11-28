@@ -41,3 +41,6 @@ class NodeText(models.Model):
     def type_of_text(self):
         return self.tipo_texto.text
     
+    def __str__(self):
+        return f'{self.sub_titulo}'
+    
