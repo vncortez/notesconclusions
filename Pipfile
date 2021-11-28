@@ -10,12 +10,13 @@ dj-database-url = "*"
 gunicorn = "*"
 python-dotenv = "==0.10.5"
 django-material-admin = "==1.6.37"
-sqlparse = "==0.3.0"
+
 psycopg2 = "*"
 whitenoise = "*"
 
 [dev-packages]
 pylint = "*"
+sqlparse = "==0.3.0"
 
 [requires]
 python_version = "3.10"
