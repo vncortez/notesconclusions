@@ -1,5 +1,5 @@
 
-# notes conclusions ![workflow](https://github.com/vncortez/NotesConclusions/actions/workflows/django.yml/badge.svg) [![Maintainability](https://api.codeclimate.com/v1/badges/a13f00c7bc1dd9481f20/maintainability)](https://codeclimate.com/github/vncortez/notesconclusions/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/a13f00c7bc1dd9481f20/test_coverage)](https://codeclimate.com/github/vncortez/notesconclusions/test_coverage)
+# notes conclusions ![workflow](https://github.com/vncortez/NotesConclusions/actions/workflows/django.yml/badge.svg) [![Maintainability](https://api.codeclimate.com/v1/badges/a13f00c7bc1dd9481f20/maintainability)](https://codeclimate.com/github/vncortez/notesconclusions/maintainability) 
 
 ## Variáveis de ambiente
 

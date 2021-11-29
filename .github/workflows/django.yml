@@ -34,8 +34,4 @@ jobs:
         python manage.py collectstatic
     - name: Run Tests
       run: |
-        coverage run manage.py test
-    - name: coverage
-      uses: paambaati/codeclimate-action@v3.0.0
-      with:
-        coverageCommand: coverage report
+        python manage.py test
