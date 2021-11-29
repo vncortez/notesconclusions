@@ -13,6 +13,7 @@ django-material-admin = "==1.6.37"
 psycopg2 = "*"
 whitenoise = "*"
 factory-boy = "*"
+coverage = "*"
 
 [dev-packages]
 pylint = "*"
