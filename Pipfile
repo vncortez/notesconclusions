@@ -10,9 +10,9 @@ dj-database-url = "*"
 gunicorn = "*"
 python-dotenv = "==0.10.5"
 django-material-admin = "==1.6.37"
-
 psycopg2 = "*"
 whitenoise = "*"
+factory-boy = "*"
 
 [dev-packages]
 pylint = "*"
